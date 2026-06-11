@@ -1,0 +1,1079 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D304BD6-DDF5-7C9A-7DAB-28C9A721E280}|..\\WMS.API\\WMS.API.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D304BD6-DDF5-7C9A-7DAB-28C9A721E280}|..\\WMS.API\\WMS.API.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D304BD6-DDF5-7C9A-7DAB-28C9A721E280}|..\\WMS.API\\WMS.API.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.api\\controllers\\auditcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3629D76-9A3B-8302-6FEC-D4836C168597}|..\\WMS.Infrastructure\\WMS.Infrastructure.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.infrastructure\\repositories\\auditrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D304BD6-DDF5-7C9A-7DAB-28C9A721E280}|..\\WMS.API\\WMS.API.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.api\\wms.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB95D26C-0EC9-2C6A-1965-55D0E5FBCD3F}|..\\WMS.Domain\\WMS.Domain.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.domain\\interfaces\\iauditrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0073FD-E125-8681-4C01-53FA066DD548}|..\\WMS.Application\\WMS.Application.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.application\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0073FD-E125-8681-4C01-53FA066DD548}|..\\WMS.Application\\WMS.Application.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.application\\wms.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D304BD6-DDF5-7C9A-7DAB-28C9A721E280}|..\\WMS.API\\WMS.API.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D304BD6-DDF5-7C9A-7DAB-28C9A721E280}|..\\WMS.API\\WMS.API.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.api\\controllers\\announcementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3629D76-9A3B-8302-6FEC-D4836C168597}|..\\WMS.Infrastructure\\WMS.Infrastructure.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.infrastructure\\repositories\\announcementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB95D26C-0EC9-2C6A-1965-55D0E5FBCD3F}|..\\WMS.Domain\\WMS.Domain.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.domain\\interfaces\\iannouncementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0073FD-E125-8681-4C01-53FA066DD548}|..\\WMS.Application\\WMS.Application.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.application\\dtos\\createannouncementdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D304BD6-DDF5-7C9A-7DAB-28C9A721E280}|..\\WMS.API\\WMS.API.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.api\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0073FD-E125-8681-4C01-53FA066DD548}|..\\WMS.Application\\WMS.Application.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.application\\dtos\\dashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3629D76-9A3B-8302-6FEC-D4836C168597}|..\\WMS.Infrastructure\\WMS.Infrastructure.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.infrastructure\\repositories\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3629D76-9A3B-8302-6FEC-D4836C168597}|..\\WMS.Infrastructure\\WMS.Infrastructure.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.infrastructure\\repositories\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3629D76-9A3B-8302-6FEC-D4836C168597}|..\\WMS.Infrastructure\\WMS.Infrastructure.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.infrastructure\\repositories\\allocationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D304BD6-DDF5-7C9A-7DAB-28C9A721E280}|..\\WMS.API\\WMS.API.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.api\\controllers\\allocationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D304BD6-DDF5-7C9A-7DAB-28C9A721E280}|..\\WMS.API\\WMS.API.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.api\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D304BD6-DDF5-7C9A-7DAB-28C9A721E280}|..\\WMS.API\\WMS.API.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.api\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB95D26C-0EC9-2C6A-1965-55D0E5FBCD3F}|..\\WMS.Domain\\WMS.Domain.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.domain\\interfaces\\iallocationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB95D26C-0EC9-2C6A-1965-55D0E5FBCD3F}|..\\WMS.Domain\\WMS.Domain.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.domain\\interfaces\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB95D26C-0EC9-2C6A-1965-55D0E5FBCD3F}|..\\WMS.Domain\\WMS.Domain.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.domain\\interfaces\\iprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0073FD-E125-8681-4C01-53FA066DD548}|..\\WMS.Application\\WMS.Application.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.application\\dtos\\allocateemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0073FD-E125-8681-4C01-53FA066DD548}|..\\WMS.Application\\WMS.Application.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.application\\dtos\\clientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0073FD-E125-8681-4C01-53FA066DD548}|..\\WMS.Application\\WMS.Application.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.application\\dtos\\createclientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0073FD-E125-8681-4C01-53FA066DD548}|..\\WMS.Application\\WMS.Application.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.application\\dtos\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0073FD-E125-8681-4C01-53FA066DD548}|..\\WMS.Application\\WMS.Application.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.application\\dtos\\updateprojectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0073FD-E125-8681-4C01-53FA066DD548}|..\\WMS.Application\\WMS.Application.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.application\\dtos\\createprojectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D304BD6-DDF5-7C9A-7DAB-28C9A721E280}|..\\WMS.API\\WMS.API.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.api\\controllers\\leavecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3629D76-9A3B-8302-6FEC-D4836C168597}|..\\WMS.Infrastructure\\WMS.Infrastructure.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.infrastructure\\repositories\\leaverepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB95D26C-0EC9-2C6A-1965-55D0E5FBCD3F}|..\\WMS.Domain\\WMS.Domain.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.domain\\interfaces\\ileaverepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0073FD-E125-8681-4C01-53FA066DD548}|..\\WMS.Application\\WMS.Application.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.application\\dtos\\rejectleavedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0073FD-E125-8681-4C01-53FA066DD548}|..\\WMS.Application\\WMS.Application.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.application\\dtos\\approveleavedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0073FD-E125-8681-4C01-53FA066DD548}|..\\WMS.Application\\WMS.Application.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.application\\dtos\\applyleavedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D304BD6-DDF5-7C9A-7DAB-28C9A721E280}|..\\WMS.API\\WMS.API.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.api\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB95D26C-0EC9-2C6A-1965-55D0E5FBCD3F}|..\\WMS.Domain\\WMS.Domain.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.domain\\interfaces\\iattendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3629D76-9A3B-8302-6FEC-D4836C168597}|..\\WMS.Infrastructure\\WMS.Infrastructure.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.infrastructure\\repositories\\attendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0073FD-E125-8681-4C01-53FA066DD548}|..\\WMS.Application\\WMS.Application.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.application\\dtos\\attendancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0073FD-E125-8681-4C01-53FA066DD548}|..\\WMS.Application\\WMS.Application.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.application\\dtos\\checkoutdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0073FD-E125-8681-4C01-53FA066DD548}|..\\WMS.Application\\WMS.Application.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.application\\dtos\\checkindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D304BD6-DDF5-7C9A-7DAB-28C9A721E280}|..\\WMS.API\\WMS.API.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D304BD6-DDF5-7C9A-7DAB-28C9A721E280}|..\\WMS.API\\WMS.API.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0073FD-E125-8681-4C01-53FA066DD548}|..\\WMS.Application\\WMS.Application.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.application\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0073FD-E125-8681-4C01-53FA066DD548}|..\\WMS.Application\\WMS.Application.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.application\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3629D76-9A3B-8302-6FEC-D4836C168597}|..\\WMS.Infrastructure\\WMS.Infrastructure.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.infrastructure\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0073FD-E125-8681-4C01-53FA066DD548}|..\\WMS.Application\\WMS.Application.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.application\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3629D76-9A3B-8302-6FEC-D4836C168597}|..\\WMS.Infrastructure\\WMS.Infrastructure.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.infrastructure\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB95D26C-0EC9-2C6A-1965-55D0E5FBCD3F}|..\\WMS.Domain\\WMS.Domain.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.domain\\interfaces\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB95D26C-0EC9-2C6A-1965-55D0E5FBCD3F}|..\\WMS.Domain\\WMS.Domain.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.domain\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0073FD-E125-8681-4C01-53FA066DD548}|..\\WMS.Application\\WMS.Application.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.application\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0073FD-E125-8681-4C01-53FA066DD548}|..\\WMS.Application\\WMS.Application.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.application\\dtos\\createemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0073FD-E125-8681-4C01-53FA066DD548}|..\\WMS.Application\\WMS.Application.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.application\\dtos\\updateemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB95D26C-0EC9-2C6A-1965-55D0E5FBCD3F}|..\\WMS.Domain\\WMS.Domain.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.domain\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB95D26C-0EC9-2C6A-1965-55D0E5FBCD3F}|..\\WMS.Domain\\WMS.Domain.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.domain\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D304BD6-DDF5-7C9A-7DAB-28C9A721E280}|..\\WMS.API\\WMS.API.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.api\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D304BD6-DDF5-7C9A-7DAB-28C9A721E280}|..\\WMS.API\\WMS.API.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.api\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB95D26C-0EC9-2C6A-1965-55D0E5FBCD3F}|..\\WMS.Domain\\WMS.Domain.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.domain\\interfaces\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB95D26C-0EC9-2C6A-1965-55D0E5FBCD3F}|..\\WMS.Domain\\WMS.Domain.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.domain\\interfaces\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3629D76-9A3B-8302-6FEC-D4836C168597}|..\\WMS.Infrastructure\\WMS.Infrastructure.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB95D26C-0EC9-2C6A-1965-55D0E5FBCD3F}|..\\WMS.Domain\\WMS.Domain.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.domain\\entities\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB95D26C-0EC9-2C6A-1965-55D0E5FBCD3F}|..\\WMS.Domain\\WMS.Domain.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.domain\\entities\\employeeprojectallocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB95D26C-0EC9-2C6A-1965-55D0E5FBCD3F}|..\\WMS.Domain\\WMS.Domain.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.domain\\entities\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB95D26C-0EC9-2C6A-1965-55D0E5FBCD3F}|..\\WMS.Domain\\WMS.Domain.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.domain\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB95D26C-0EC9-2C6A-1965-55D0E5FBCD3F}|..\\WMS.Domain\\WMS.Domain.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.domain\\entities\\announcement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB95D26C-0EC9-2C6A-1965-55D0E5FBCD3F}|..\\WMS.Domain\\WMS.Domain.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.domain\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB95D26C-0EC9-2C6A-1965-55D0E5FBCD3F}|..\\WMS.Domain\\WMS.Domain.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.domain\\entities\\leave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB95D26C-0EC9-2C6A-1965-55D0E5FBCD3F}|..\\WMS.Domain\\WMS.Domain.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.domain\\entities\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB95D26C-0EC9-2C6A-1965-55D0E5FBCD3F}|..\\WMS.Domain\\WMS.Domain.csproj|c:\\users\\aman\\onedrive\\desktop\\workforce management system\\backend\\wms.domain\\wms.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuditController.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.API\\Controllers\\AuditController.cs",
+              "RelativeDocumentMoniker": "..\\WMS.API\\Controllers\\AuditController.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.API\\Controllers\\AuditController.cs",
+              "RelativeToolTip": "..\\WMS.API\\Controllers\\AuditController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T06:16:35.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuditRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Infrastructure\\Repositories\\AuditRepository.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Infrastructure\\Repositories\\AuditRepository.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Infrastructure\\Repositories\\AuditRepository.cs",
+              "RelativeToolTip": "..\\WMS.Infrastructure\\Repositories\\AuditRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T06:15:07.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAuditRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Interfaces\\IAuditRepository.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Domain\\Interfaces\\IAuditRepository.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Interfaces\\IAuditRepository.cs",
+              "RelativeToolTip": "..\\WMS.Domain\\Interfaces\\IAuditRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T06:14:22.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\Mappings\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Application\\Mappings\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\Mappings\\MappingProfile.cs",
+              "RelativeToolTip": "..\\WMS.Application\\Mappings\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T06:05:34.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WMS.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\WMS.Application.csproj",
+              "RelativeDocumentMoniker": "..\\WMS.Application\\WMS.Application.csproj",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\WMS.Application.csproj",
+              "RelativeToolTip": "..\\WMS.Application\\WMS.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-10T05:50:32.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.API\\Program.cs",
+              "RelativeDocumentMoniker": "..\\WMS.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.API\\Program.cs",
+              "RelativeToolTip": "..\\WMS.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T06:49:51.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.API\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "..\\WMS.API\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.API\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "..\\WMS.API\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T08:44:22.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.API\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "..\\WMS.API\\Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.API\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "..\\WMS.API\\Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T06:04:25.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AnnouncementController.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.API\\Controllers\\AnnouncementController.cs",
+              "RelativeDocumentMoniker": "..\\WMS.API\\Controllers\\AnnouncementController.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.API\\Controllers\\AnnouncementController.cs",
+              "RelativeToolTip": "..\\WMS.API\\Controllers\\AnnouncementController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T06:02:50.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WMS.API.csproj",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.API\\WMS.API.csproj",
+              "RelativeDocumentMoniker": "..\\WMS.API\\WMS.API.csproj",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.API\\WMS.API.csproj",
+              "RelativeToolTip": "..\\WMS.API\\WMS.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-10T05:51:52.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AnnouncementRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Infrastructure\\Repositories\\AnnouncementRepository.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Infrastructure\\Repositories\\AnnouncementRepository.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Infrastructure\\Repositories\\AnnouncementRepository.cs",
+              "RelativeToolTip": "..\\WMS.Infrastructure\\Repositories\\AnnouncementRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T06:01:44.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IAnnouncementRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Interfaces\\IAnnouncementRepository.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Domain\\Interfaces\\IAnnouncementRepository.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Interfaces\\IAnnouncementRepository.cs",
+              "RelativeToolTip": "..\\WMS.Domain\\Interfaces\\IAnnouncementRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T06:01:05.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateAnnouncementDto.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\DTOs\\CreateAnnouncementDto.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Application\\DTOs\\CreateAnnouncementDto.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\DTOs\\CreateAnnouncementDto.cs",
+              "RelativeToolTip": "..\\WMS.Application\\DTOs\\CreateAnnouncementDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T06:00:14.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.API\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "..\\WMS.API\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.API\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "..\\WMS.API\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwBEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T05:59:19.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DashboardDto.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\DTOs\\DashboardDto.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Application\\DTOs\\DashboardDto.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\DTOs\\DashboardDto.cs",
+              "RelativeToolTip": "..\\WMS.Application\\DTOs\\DashboardDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T05:58:55.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AllocationController.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.API\\Controllers\\AllocationController.cs",
+              "RelativeDocumentMoniker": "..\\WMS.API\\Controllers\\AllocationController.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.API\\Controllers\\AllocationController.cs",
+              "RelativeToolTip": "..\\WMS.API\\Controllers\\AllocationController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwBsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T05:50:59.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProjectController.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.API\\Controllers\\ProjectController.cs",
+              "RelativeDocumentMoniker": "..\\WMS.API\\Controllers\\ProjectController.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.API\\Controllers\\ProjectController.cs",
+              "RelativeToolTip": "..\\WMS.API\\Controllers\\ProjectController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwDcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T05:50:11.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ClientController.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.API\\Controllers\\ClientController.cs",
+              "RelativeDocumentMoniker": "..\\WMS.API\\Controllers\\ClientController.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.API\\Controllers\\ClientController.cs",
+              "RelativeToolTip": "..\\WMS.API\\Controllers\\ClientController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwBQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T05:47:18.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AllocationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Infrastructure\\Repositories\\AllocationRepository.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Infrastructure\\Repositories\\AllocationRepository.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Infrastructure\\Repositories\\AllocationRepository.cs",
+              "RelativeToolTip": "..\\WMS.Infrastructure\\Repositories\\AllocationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T05:41:59.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ClientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Infrastructure\\Repositories\\ClientRepository.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Infrastructure\\Repositories\\ClientRepository.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Infrastructure\\Repositories\\ClientRepository.cs",
+              "RelativeToolTip": "..\\WMS.Infrastructure\\Repositories\\ClientRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T05:41:41.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProjectRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Infrastructure\\Repositories\\ProjectRepository.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Infrastructure\\Repositories\\ProjectRepository.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Infrastructure\\Repositories\\ProjectRepository.cs",
+              "RelativeToolTip": "..\\WMS.Infrastructure\\Repositories\\ProjectRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T05:41:25.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IAllocationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Interfaces\\IAllocationRepository.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Domain\\Interfaces\\IAllocationRepository.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Interfaces\\IAllocationRepository.cs",
+              "RelativeToolTip": "..\\WMS.Domain\\Interfaces\\IAllocationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T05:37:25.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IClientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Interfaces\\IClientRepository.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Domain\\Interfaces\\IClientRepository.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Interfaces\\IClientRepository.cs",
+              "RelativeToolTip": "..\\WMS.Domain\\Interfaces\\IClientRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T05:36:28.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IProjectRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Interfaces\\IProjectRepository.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Domain\\Interfaces\\IProjectRepository.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Interfaces\\IProjectRepository.cs",
+              "RelativeToolTip": "..\\WMS.Domain\\Interfaces\\IProjectRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T05:34:53.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AllocateEmployeeDto.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\DTOs\\AllocateEmployeeDto.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Application\\DTOs\\AllocateEmployeeDto.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\DTOs\\AllocateEmployeeDto.cs",
+              "RelativeToolTip": "..\\WMS.Application\\DTOs\\AllocateEmployeeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T10:24:35.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ClientDto.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\DTOs\\ClientDto.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Application\\DTOs\\ClientDto.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\DTOs\\ClientDto.cs",
+              "RelativeToolTip": "..\\WMS.Application\\DTOs\\ClientDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T10:23:29.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CreateClientDto.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\DTOs\\CreateClientDto.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Application\\DTOs\\CreateClientDto.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\DTOs\\CreateClientDto.cs",
+              "RelativeToolTip": "..\\WMS.Application\\DTOs\\CreateClientDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T10:22:40.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ProjectDto.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\DTOs\\ProjectDto.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Application\\DTOs\\ProjectDto.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\DTOs\\ProjectDto.cs",
+              "RelativeToolTip": "..\\WMS.Application\\DTOs\\ProjectDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T10:21:48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UpdateProjectDto.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\DTOs\\UpdateProjectDto.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Application\\DTOs\\UpdateProjectDto.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\DTOs\\UpdateProjectDto.cs",
+              "RelativeToolTip": "..\\WMS.Application\\DTOs\\UpdateProjectDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T10:21:07.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CreateProjectDto.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\DTOs\\CreateProjectDto.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Application\\DTOs\\CreateProjectDto.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\DTOs\\CreateProjectDto.cs",
+              "RelativeToolTip": "..\\WMS.Application\\DTOs\\CreateProjectDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T10:20:27.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "LeaveController.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.API\\Controllers\\LeaveController.cs",
+              "RelativeDocumentMoniker": "..\\WMS.API\\Controllers\\LeaveController.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.API\\Controllers\\LeaveController.cs",
+              "RelativeToolTip": "..\\WMS.API\\Controllers\\LeaveController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T10:17:28.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "LeaveRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Infrastructure\\Repositories\\LeaveRepository.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Infrastructure\\Repositories\\LeaveRepository.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Infrastructure\\Repositories\\LeaveRepository.cs",
+              "RelativeToolTip": "..\\WMS.Infrastructure\\Repositories\\LeaveRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T10:16:16.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ILeaveRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Interfaces\\ILeaveRepository.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Domain\\Interfaces\\ILeaveRepository.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Interfaces\\ILeaveRepository.cs",
+              "RelativeToolTip": "..\\WMS.Domain\\Interfaces\\ILeaveRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T10:15:31.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "RejectLeaveDto.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\DTOs\\RejectLeaveDto.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Application\\DTOs\\RejectLeaveDto.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\DTOs\\RejectLeaveDto.cs",
+              "RelativeToolTip": "..\\WMS.Application\\DTOs\\RejectLeaveDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T10:14:48.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ApproveLeaveDto.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\DTOs\\ApproveLeaveDto.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Application\\DTOs\\ApproveLeaveDto.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\DTOs\\ApproveLeaveDto.cs",
+              "RelativeToolTip": "..\\WMS.Application\\DTOs\\ApproveLeaveDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T10:14:12.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ApplyLeaveDto.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\DTOs\\ApplyLeaveDto.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Application\\DTOs\\ApplyLeaveDto.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\DTOs\\ApplyLeaveDto.cs",
+              "RelativeToolTip": "..\\WMS.Application\\DTOs\\ApplyLeaveDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T10:13:38.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AttendanceController.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.API\\Controllers\\AttendanceController.cs",
+              "RelativeDocumentMoniker": "..\\WMS.API\\Controllers\\AttendanceController.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.API\\Controllers\\AttendanceController.cs",
+              "RelativeToolTip": "..\\WMS.API\\Controllers\\AttendanceController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T10:11:26.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AttendanceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Infrastructure\\Repositories\\AttendanceRepository.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Infrastructure\\Repositories\\AttendanceRepository.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Infrastructure\\Repositories\\AttendanceRepository.cs",
+              "RelativeToolTip": "..\\WMS.Infrastructure\\Repositories\\AttendanceRepository.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwAsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T10:09:58.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IAttendanceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Interfaces\\IAttendanceRepository.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Domain\\Interfaces\\IAttendanceRepository.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Interfaces\\IAttendanceRepository.cs",
+              "RelativeToolTip": "..\\WMS.Domain\\Interfaces\\IAttendanceRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T10:09:17.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AttendanceDto.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\DTOs\\AttendanceDto.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Application\\DTOs\\AttendanceDto.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\DTOs\\AttendanceDto.cs",
+              "RelativeToolTip": "..\\WMS.Application\\DTOs\\AttendanceDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T10:08:35.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CheckOutDto.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\DTOs\\CheckOutDto.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Application\\DTOs\\CheckOutDto.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\DTOs\\CheckOutDto.cs",
+              "RelativeToolTip": "..\\WMS.Application\\DTOs\\CheckOutDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T10:06:52.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CheckInDto.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\DTOs\\CheckInDto.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Application\\DTOs\\CheckInDto.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\DTOs\\CheckInDto.cs",
+              "RelativeToolTip": "..\\WMS.Application\\DTOs\\CheckInDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T10:06:16.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "..\\WMS.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "..\\WMS.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:48:38.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Infrastructure\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Infrastructure\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Infrastructure\\Services\\TokenService.cs",
+              "RelativeToolTip": "..\\WMS.Infrastructure\\Services\\TokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:31:59.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\DTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Application\\DTOs\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\DTOs\\RegisterDto.cs",
+              "RelativeToolTip": "..\\WMS.Application\\DTOs\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:29:35.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Application\\DTOs\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "..\\WMS.Application\\DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:28:22.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.API\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\WMS.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.API\\appsettings.json",
+              "RelativeToolTip": "..\\WMS.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-10T06:37:02.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\Services\\ITokenService.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Application\\Services\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\Services\\ITokenService.cs",
+              "RelativeToolTip": "..\\WMS.Application\\Services\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:30:39.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Entities\\Client.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Domain\\Entities\\Client.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Entities\\Client.cs",
+              "RelativeToolTip": "..\\WMS.Domain\\Entities\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T06:11:18.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "EmployeeDto.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\DTOs\\EmployeeDto.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Application\\DTOs\\EmployeeDto.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\DTOs\\EmployeeDto.cs",
+              "RelativeToolTip": "..\\WMS.Application\\DTOs\\EmployeeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:12:01.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "CreateEmployeeDto.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\DTOs\\CreateEmployeeDto.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Application\\DTOs\\CreateEmployeeDto.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\DTOs\\CreateEmployeeDto.cs",
+              "RelativeToolTip": "..\\WMS.Application\\DTOs\\CreateEmployeeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:12:52.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Interfaces\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Domain\\Interfaces\\IEmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Interfaces\\IEmployeeRepository.cs",
+              "RelativeToolTip": "..\\WMS.Domain\\Interfaces\\IEmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T07:11:17.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "..\\WMS.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA1wCMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T07:15:30.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "UpdateEmployeeDto.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\DTOs\\UpdateEmployeeDto.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Application\\DTOs\\UpdateEmployeeDto.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Application\\DTOs\\UpdateEmployeeDto.cs",
+              "RelativeToolTip": "..\\WMS.Application\\DTOs\\UpdateEmployeeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:13:08.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.API\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "..\\WMS.API\\Controllers\\RoleController.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.API\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "..\\WMS.API\\Controllers\\RoleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T08:55:20.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.API\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "..\\WMS.API\\Controllers\\DepartmentController.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.API\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "..\\WMS.API\\Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T08:52:03.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Entities\\Department.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Domain\\Entities\\Department.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Entities\\Department.cs",
+              "RelativeToolTip": "..\\WMS.Domain\\Entities\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T06:06:02.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Domain\\Entities\\Role.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Entities\\Role.cs",
+              "RelativeToolTip": "..\\WMS.Domain\\Entities\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T06:06:51.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "IRoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Interfaces\\IRoleRepository.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Domain\\Interfaces\\IRoleRepository.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Interfaces\\IRoleRepository.cs",
+              "RelativeToolTip": "..\\WMS.Domain\\Interfaces\\IRoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T07:13:38.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "IDepartmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Interfaces\\IDepartmentRepository.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Domain\\Interfaces\\IDepartmentRepository.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Interfaces\\IDepartmentRepository.cs",
+              "RelativeToolTip": "..\\WMS.Domain\\Interfaces\\IDepartmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T07:12:07.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "..\\WMS.Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T06:33:34.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "AuditLog.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Entities\\AuditLog.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Domain\\Entities\\AuditLog.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Entities\\AuditLog.cs",
+              "RelativeToolTip": "..\\WMS.Domain\\Entities\\AuditLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T06:17:05.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "UserLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Entities\\UserLogin.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Domain\\Entities\\UserLogin.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Entities\\UserLogin.cs",
+              "RelativeToolTip": "..\\WMS.Domain\\Entities\\UserLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T06:16:42.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "EmployeeProjectAllocation.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Entities\\EmployeeProjectAllocation.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Domain\\Entities\\EmployeeProjectAllocation.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Entities\\EmployeeProjectAllocation.cs",
+              "RelativeToolTip": "..\\WMS.Domain\\Entities\\EmployeeProjectAllocation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T06:12:05.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Announcement.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Entities\\Announcement.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Domain\\Entities\\Announcement.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Entities\\Announcement.cs",
+              "RelativeToolTip": "..\\WMS.Domain\\Entities\\Announcement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T06:15:25.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Entities\\Project.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Domain\\Entities\\Project.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Entities\\Project.cs",
+              "RelativeToolTip": "..\\WMS.Domain\\Entities\\Project.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T06:11:38.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Entities\\Employee.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Domain\\Entities\\Employee.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Entities\\Employee.cs",
+              "RelativeToolTip": "..\\WMS.Domain\\Entities\\Employee.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAywCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T06:07:14.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Leave.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Entities\\Leave.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Domain\\Entities\\Leave.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Entities\\Leave.cs",
+              "RelativeToolTip": "..\\WMS.Domain\\Entities\\Leave.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T06:10:37.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Attendance.cs",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Entities\\Attendance.cs",
+              "RelativeDocumentMoniker": "..\\WMS.Domain\\Entities\\Attendance.cs",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\Entities\\Attendance.cs",
+              "RelativeToolTip": "..\\WMS.Domain\\Entities\\Attendance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T06:10:10.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "WMS.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\WMS.Domain.csproj",
+              "RelativeDocumentMoniker": "..\\WMS.Domain\\WMS.Domain.csproj",
+              "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\WorkForce Management System\\Backend\\WMS.Domain\\WMS.Domain.csproj",
+              "RelativeToolTip": "..\\WMS.Domain\\WMS.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-10T05:58:08.86Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
