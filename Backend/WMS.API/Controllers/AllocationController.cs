@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using WMS.Application.DTOs;
 using WMS.Domain.Entities;
@@ -41,5 +41,31 @@ public class AllocationController : ControllerBase
         await _repository.AddAsync(allocation);
 
         return Ok("Employee Allocated Successfully");
+    }
+
+    [HttpPut("{id}")]
+    public async Task<IActionResult> Update(int id, UpdateAllocationDto dto)
+    {
+        var existing = await _repository.GetByIdAsync(id);
+        if (existing == null)
+            return NotFound("Allocation not found");
+
+        existing.EmpId = dto.EmpId;
+        existing.ProjectId = dto.ProjectId;
+        existing.Status = dto.Status;
+
+        await _repository.UpdateAsync(existing);
+        return Ok("Allocation Updated Successfully");
+    }
+
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> Delete(int id)
+    {
+        var existing = await _repository.GetByIdAsync(id);
+        if (existing == null)
+            return NotFound("Allocation not found");
+
+        await _repository.DeleteAsync(id);
+        return Ok("Allocation Deleted Successfully");
     }
 }

@@ -1,0 +1,170 @@
+@import "@angular/material/prebuilt-themes/indigo-pink.css";
+
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --bg-main: #f4f6f9;
+  --bg-card: #ffffff;
+  --border-card: #ddd;
+  --border-hover: #ccc;
+  --text-main: #333;
+  --text-muted: #6c757d;
+  --success: #28a745;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --hover-bg: rgba(0, 0, 0, 0.05);
+  --active-bg: rgba(99, 102, 241, 0.15);
+  --active-border: rgba(99, 102, 241, 0.25);
+}
+
+[data-theme="dark"] {
+  --primary-color: #3b82f6;
+  --secondary-color: #9ca3af;
+  --bg-main: #111827;
+  --bg-card: #1f2937;
+  --border-card: #374151;
+  --border-hover: #4b5563;
+  --text-main: #f9fafb;
+  --text-muted: #9ca3af;
+  --success: #10b981;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+  --hover-bg: rgba(255, 255, 255, 0.05);
+  --active-bg: rgba(99, 102, 241, 0.25);
+  --active-border: rgba(99, 102, 241, 0.4);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Container cards (replacing glass-card) */
+.glass-card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-card);
+  border-radius: 4px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.glass-card:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-main);
+  margin-top: 0;
+}
+
+/* Material Design Table adjustments */
+.mat-mdc-table {
+  width: 100%;
+  background-color: var(--bg-card) !important;
+}
+
+.mat-mdc-header-cell {
+  font-weight: bold !important;
+  color: var(--text-main) !important;
+  background-color: var(--bg-main) !important;
+  border-bottom: 2px solid var(--border-card) !important;
+  padding: 12px !important;
+}
+
+.mat-mdc-cell {
+  border-bottom: 1px solid var(--border-card) !important;
+  padding: 12px !important;
+  color: var(--text-main) !important;
+}
+
+.mat-mdc-row:nth-child(even) .mat-mdc-cell {
+  background-color: var(--bg-main) !important;
+}
+
+/* Form Controls */
+.mat-mdc-form-field {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 4px !important;
+  padding: 8px 16px !important;
+  cursor: pointer;
+  font-size: 14px !important;
+}
+
+.btn-primary:hover {
+  filter: brightness(0.9);
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color) !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 4px !important;
+  padding: 8px 16px !important;
+  cursor: pointer;
+  font-size: 14px !important;
+}
+
+.btn-secondary:hover {
+  filter: brightness(0.9);
+}
+
+/* Status Badges */
+.badge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.badge-active, .badge-approved, .badge-present {
+  background-color: #28a745;
+  color: white;
+}
+
+.badge-pending {
+  background-color: #ffc107;
+  color: black;
+}
+
+.badge-inactive, .badge-rejected, .badge-absent {
+  background-color: #dc3545;
+  color: white;
+}
+
+/* Dialog */
+.mat-mdc-dialog-container .mdc-dialog__surface {
+  background-color: var(--bg-card) !important;
+  color: var(--text-main) !important;
+  border-radius: 4px !important;
+}
+
+/* Utilities */
+.gradient-text {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.fade-in {
+  /* No animation */
+}

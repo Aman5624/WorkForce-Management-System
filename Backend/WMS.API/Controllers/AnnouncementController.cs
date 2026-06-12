@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using WMS.Application.DTOs;
 using WMS.Domain.Entities;
@@ -42,5 +42,33 @@ public class AnnouncementController : ControllerBase
         await _repository.AddAsync(announcement);
 
         return Ok("Announcement Created");
+    }
+
+    [Authorize(Roles = "Admin")]
+    [HttpPut("{id}")]
+    public async Task<IActionResult> Update(int id, CreateAnnouncementDto dto)
+    {
+        var existing = await _repository.GetByIdAsync(id);
+        if (existing == null)
+            return NotFound("Announcement not found");
+
+        existing.Title = dto.Title;
+        existing.Message = dto.Message;
+        existing.CreatedBy = dto.CreatedBy;
+
+        await _repository.UpdateAsync(existing);
+        return Ok("Announcement Updated");
+    }
+
+    [Authorize(Roles = "Admin")]
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> Delete(int id)
+    {
+        var existing = await _repository.GetByIdAsync(id);
+        if (existing == null)
+            return NotFound("Announcement not found");
+
+        await _repository.DeleteAsync(id);
+        return Ok("Announcement Deleted");
     }
 }

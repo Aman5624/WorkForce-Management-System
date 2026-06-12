@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using WMS.Domain.Entities;
 using WMS.Domain.Interfaces;
 using WMS.Infrastructure.Data;
@@ -28,5 +28,26 @@ public class AllocationRepository : IAllocationRepository
             .Include(a => a.Employee)
             .Include(a => a.Project)
             .ToListAsync();
+    }
+
+    public async Task<EmployeeProjectAllocation?> GetByIdAsync(int id)
+    {
+        return await _context.EmployeeProjectAllocations.FindAsync(id);
+    }
+
+    public async Task UpdateAsync(EmployeeProjectAllocation allocation)
+    {
+        _context.EmployeeProjectAllocations.Update(allocation);
+        await _context.SaveChangesAsync();
+    }
+
+    public async Task DeleteAsync(int id)
+    {
+        var allocation = await _context.EmployeeProjectAllocations.FindAsync(id);
+        if (allocation != null)
+        {
+            _context.EmployeeProjectAllocations.Remove(allocation);
+            await _context.SaveChangesAsync();
+        }
     }
 }

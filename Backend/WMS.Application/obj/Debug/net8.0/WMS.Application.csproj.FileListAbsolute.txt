@@ -13,3 +13,4 @@ C:\Users\Aman\OneDrive\Desktop\WorkForce Management System\Backend\WMS.Applicati
 C:\Users\Aman\OneDrive\Desktop\WorkForce Management System\Backend\WMS.Application\obj\Debug\net8.0\refint\WMS.Application.dll
 C:\Users\Aman\OneDrive\Desktop\WorkForce Management System\Backend\WMS.Application\obj\Debug\net8.0\WMS.Application.pdb
 C:\Users\Aman\OneDrive\Desktop\WorkForce Management System\Backend\WMS.Application\obj\Debug\net8.0\ref\WMS.Application.dll
+C:\Users\Aman\OneDrive\Desktop\WorkForce Management System\Backend\WMS.Application\obj\Debug\net8.0\WMS.Application.sourcelink.json

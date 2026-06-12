@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using WMS.Domain.Entities;
 using WMS.Domain.Interfaces;
 using WMS.Infrastructure.Data;
@@ -23,5 +23,26 @@ public class AnnouncementRepository : IAnnouncementRepository
     {
         await _context.Announcements.AddAsync(announcement);
         await _context.SaveChangesAsync();
+    }
+
+    public async Task<Announcement?> GetByIdAsync(int id)
+    {
+        return await _context.Announcements.FindAsync(id);
+    }
+
+    public async Task UpdateAsync(Announcement announcement)
+    {
+        _context.Announcements.Update(announcement);
+        await _context.SaveChangesAsync();
+    }
+
+    public async Task DeleteAsync(int id)
+    {
+        var announcement = await _context.Announcements.FindAsync(id);
+        if (announcement != null)
+        {
+            _context.Announcements.Remove(announcement);
+            await _context.SaveChangesAsync();
+        }
     }
 }

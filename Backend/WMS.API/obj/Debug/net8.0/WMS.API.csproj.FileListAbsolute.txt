@@ -33,7 +33,6 @@ C:\Users\Aman\OneDrive\Desktop\WorkForce Management System\Backend\WMS.API\obj\D
 C:\Users\Aman\OneDrive\Desktop\WorkForce Management System\Backend\WMS.API\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Aman\OneDrive\Desktop\WorkForce Management System\Backend\WMS.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\Aman\OneDrive\Desktop\WorkForce Management System\Backend\WMS.API\obj\Debug\net8.0\swae.build.ex.cache
-C:\Users\Aman\OneDrive\Desktop\WorkForce Management System\Backend\WMS.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Aman\OneDrive\Desktop\WorkForce Management System\Backend\WMS.API\obj\Debug\net8.0\WMS.API.csproj.Up2Date
 C:\Users\Aman\OneDrive\Desktop\WorkForce Management System\Backend\WMS.API\obj\Debug\net8.0\WMS.API.dll
 C:\Users\Aman\OneDrive\Desktop\WorkForce Management System\Backend\WMS.API\obj\Debug\net8.0\refint\WMS.API.dll
@@ -154,3 +153,4 @@ C:\Users\Aman\OneDrive\Desktop\WorkForce Management System\Backend\WMS.API\bin\D
 C:\Users\Aman\OneDrive\Desktop\WorkForce Management System\Backend\WMS.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\Aman\OneDrive\Desktop\WorkForce Management System\Backend\WMS.API\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
 C:\Users\Aman\OneDrive\Desktop\WorkForce Management System\Backend\WMS.API\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Aman\OneDrive\Desktop\WorkForce Management System\Backend\WMS.API\obj\Debug\net8.0\WMS.API.sourcelink.json

@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using WMS.Domain.Entities;
 using WMS.Infrastructure.Data;
 
@@ -28,5 +28,34 @@ public class DepartmentController : ControllerBase
     public IActionResult GetAll()
     {
         return Ok(_context.Departments.ToList());
+    }
+
+    [HttpPut("{id}")]
+    public async Task<IActionResult> Update(int id, Department department)
+    {
+        if (id != department.DepartmentId)
+            return BadRequest("Department ID mismatch");
+
+        var existing = await _context.Departments.FindAsync(id);
+        if (existing == null)
+            return NotFound("Department not found");
+
+        existing.DepartmentName = department.DepartmentName;
+        existing.Description = department.Description;
+
+        await _context.SaveChangesAsync();
+        return Ok();
+    }
+
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> Delete(int id)
+    {
+        var department = await _context.Departments.FindAsync(id);
+        if (department == null)
+            return NotFound("Department not found");
+
+        _context.Departments.Remove(department);
+        await _context.SaveChangesAsync();
+        return Ok();
     }
 }

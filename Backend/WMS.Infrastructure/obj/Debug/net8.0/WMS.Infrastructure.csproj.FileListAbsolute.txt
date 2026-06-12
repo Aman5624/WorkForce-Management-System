@@ -17,3 +17,4 @@ C:\Users\Aman\OneDrive\Desktop\WorkForce Management System\Backend\WMS.Infrastru
 C:\Users\Aman\OneDrive\Desktop\WorkForce Management System\Backend\WMS.Infrastructure\obj\Debug\net8.0\WMS.Infrastructure.genruntimeconfig.cache
 C:\Users\Aman\OneDrive\Desktop\WorkForce Management System\Backend\WMS.Infrastructure\bin\Debug\net8.0\WMS.Application.dll
 C:\Users\Aman\OneDrive\Desktop\WorkForce Management System\Backend\WMS.Infrastructure\bin\Debug\net8.0\WMS.Application.pdb
+C:\Users\Aman\OneDrive\Desktop\WorkForce Management System\Backend\WMS.Infrastructure\obj\Debug\net8.0\WMS.Infrastructure.sourcelink.json
