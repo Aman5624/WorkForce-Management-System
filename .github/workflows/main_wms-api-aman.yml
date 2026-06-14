@@ -55,4 +55,4 @@ jobs:
           app-name: 'wms-api-aman'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B23981B3BFD432CAF47158F6F8AAFE5}}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
