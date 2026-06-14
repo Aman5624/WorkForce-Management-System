@@ -27,10 +27,10 @@ jobs:
           dotnet-version: '8.x'
 
       - name: Build with dotnet
-        run: dotnet build WMS.Api/WMS.Api.csproj --configuration Release
+        run: dotnet build Backend/WMS.Api/WMS.Api.csproj --configuration Release
 
       - name: dotnet publish
-        run: dotnet publish WMS.Api/WMS.Api.csproj -c Release -o "${{env.DOTNET_ROOT}}/myapp"
+        run: dotnet publish Backend/WMS.Api/WMS.Api.csproj -c Release -o "${{env.DOTNET_ROOT}}/myapp"
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
