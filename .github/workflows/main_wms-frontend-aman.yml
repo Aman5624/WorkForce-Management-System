@@ -1,55 +1,57 @@
-# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
-# More GitHub Actions for Azure: https://github.com/Azure/actions
-
-name: Build and deploy Node.js app to Azure Web App - wms-frontend-aman
+name: Build and Deploy Angular App to Azure Web App - wms-frontend-aman
 
 on:
   push:
     branches:
       - main
+    paths:
+      - 'Frontend/**'
+      - '.github/workflows/frontend.yml'
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: windows-latest
+
     permissions:
-      contents: read #This is required for actions/checkout
+      contents: read
 
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up Node.js version
-        uses: actions/setup-node@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          node-version: '22.x'
+          node-version: '22'
 
-      - name: npm install, build, and test
-        run: |
-          npm install
-          npm run build --if-present
-          npm run test --if-present
-      
-      - name: Upload artifact for deployment job
+      - name: Install Dependencies
+        working-directory: Frontend
+        run: npm install
+
+      - name: Build Angular App
+        working-directory: Frontend
+        run: npm run build -- --configuration production
+
+      - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: node-app
-          path: .
+          name: angular-app
+          path: Frontend/dist/WMS-Frontend/browser
 
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     needs: build
-    
+
     steps:
-      - name: Download artifact from build job
+      - name: Download Artifact
         uses: actions/download-artifact@v4
         with:
-          name: node-app
-      
-      - name: 'Deploy to Azure Web App'
+          name: angular-app
+          path: .
+
+      - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3
-        id: deploy-to-webapp
         with:
           app-name: 'wms-frontend-aman'
-          slot-name: 'Production'
+          publish-profile: ${{ secrets.AZURE_FRONTEND_PUBLISH_PROFILE }}
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0A8CE11B3AC04C4EBA99E41D53596665 }}
