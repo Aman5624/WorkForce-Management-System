@@ -1,3 +1,4 @@
+import { environment } from '../environments/environment';
 import { Component, Inject, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators, AbstractControl, ValidatorFn } from '@angular/forms';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
@@ -224,7 +225,7 @@ export class EmployeeFormComponent implements OnInit {
       }
     });
 
-    this.http.get<any[]>('/api/Role').subscribe({
+    this.http.get<any[]>(`${environment.apiUrl}/Role`).subscribe({
       next: list => {
         this.roles = list;
         if (this.isEditMode && this.data.employee) {

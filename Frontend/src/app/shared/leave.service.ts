@@ -1,3 +1,4 @@
+import { environment } from '../environments/environment';
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
@@ -26,18 +27,18 @@ export class LeaveService {
   constructor(private http: HttpClient) {}
 
   getAll(): Observable<Leave[]> {
-    return this.http.get<Leave[]>('/api/Leave');
+    return this.http.get<Leave[]>(`${environment.apiUrl}/Leave`);
   }
 
   apply(leave: { empId: number; leaveType: string; reason: string; fromDate: string; toDate: string }): Observable<any> {
-    return this.http.post('/api/Leave/apply', leave, { responseType: 'text' });
+    return this.http.post(`${environment.apiUrl}/Leave/apply`, leave, { responseType: 'text' });
   }
 
   approve(leaveId: number, approvedBy: number): Observable<any> {
-    return this.http.post('/api/Leave/approve', { leaveId, approvedBy }, { responseType: 'text' });
+    return this.http.post(`${environment.apiUrl}/Leave/approve`, { leaveId, approvedBy }, { responseType: 'text' });
   }
 
   reject(leaveId: number, approvedBy: number): Observable<any> {
-    return this.http.post('/api/Leave/reject', { leaveId, approvedBy }, { responseType: 'text' });
+    return this.http.post(`${environment.apiUrl}/Leave/reject`, { leaveId, approvedBy }, { responseType: 'text' });
   }
 }

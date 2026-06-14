@@ -1,3 +1,4 @@
+import { environment } from '../environments/environment';
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
@@ -23,14 +24,14 @@ export class AttendanceService {
   constructor(private http: HttpClient) {}
 
   getAll(): Observable<Attendance[]> {
-    return this.http.get<Attendance[]>('/api/Attendance');
+    return this.http.get<Attendance[]>(`${environment.apiUrl}/Attendance`);
   }
 
   checkIn(empId: number, workMode: string): Observable<any> {
-    return this.http.post('/api/Attendance/checkin', { empId, workMode }, { responseType: 'text' });
+    return this.http.post(`${environment.apiUrl}/Attendance/checkin`, { empId, workMode }, { responseType: 'text' });
   }
 
   checkOut(attendanceId: number): Observable<any> {
-    return this.http.post('/api/Attendance/checkout', { attendanceId }, { responseType: 'text' });
+    return this.http.post(`${environment.apiUrl}/Attendance/checkout`, { attendanceId }, { responseType: 'text' });
   }
 }

@@ -30,7 +30,10 @@ export class AuthService {
   }
 
   login(credentials: { username: string; password: string }): Observable<any> {
-    return this.http.post<any>('/api/Auth/login', credentials).pipe(
+  return this.http.post<any>(
+    'https://wms-api-aman-c0aye3b3efhgcsgt.centralindia-01.azurewebsites.net/api/Auth/login',
+    credentials
+  ).pipe(
       tap(response => {
         const token = response?.token ?? response?.Token;
         if (token) {
@@ -41,8 +44,11 @@ export class AuthService {
   }
 
   register(user: { username: string; password: string; roleId: number }): Observable<any> {
-    return this.http.post<any>('/api/Auth/register', user);
-  }
+  return this.http.post<any>(
+    'https://wms-api-aman-c0aye3b3efhgcsgt.centralindia-01.azurewebsites.net/api/Auth/register',
+    user
+  );
+}
 
   logout(): void {
     localStorage.removeItem(this.tokenKey);

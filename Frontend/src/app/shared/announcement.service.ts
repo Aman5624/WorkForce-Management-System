@@ -1,3 +1,4 @@
+import { environment } from '../environments/environment';
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
@@ -21,7 +22,7 @@ export interface CreateAnnouncementDto {
   providedIn: 'root'
 })
 export class AnnouncementService {
-  private apiUrl = '/api/Announcement';
+  private apiUrl = `${environment.apiUrl}/Announcement`;
 
   constructor(private http: HttpClient) {}
 

@@ -1,3 +1,4 @@
+import { environment } from '../environments/environment';
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
@@ -45,22 +46,22 @@ export class EmployeeService {
   constructor(private http: HttpClient) {}
 
   getAll(): Observable<Employee[]> {
-    return this.http.get<Employee[]>('/api/Employee');
+    return this.http.get<Employee[]>(`${environment.apiUrl}/Employee`);
   }
 
   getById(id: number): Observable<Employee> {
-    return this.http.get<Employee>(`/api/Employee/${id}`);
+    return this.http.get<Employee>(`${environment.apiUrl}/Employee/${id}`);
   }
 
   create(employee: CreateEmployeeInput): Observable<any> {
-    return this.http.post('/api/Employee', employee, { responseType: 'text' });
+    return this.http.post(`${environment.apiUrl}/Employee`, employee, { responseType: 'text' });
   }
 
   update(id: number, employee: UpdateEmployeeInput): Observable<any> {
-    return this.http.put(`/api/Employee/${id}`, employee, { responseType: 'text' });
+    return this.http.put(`${environment.apiUrl}/Employee/${id}`, employee, { responseType: 'text' });
   }
 
   delete(id: number): Observable<any> {
-    return this.http.delete(`/api/Employee/${id}`, { responseType: 'text' });
+    return this.http.delete(`${environment.apiUrl}/Employee/${id}`, { responseType: 'text' });
   }
 }
