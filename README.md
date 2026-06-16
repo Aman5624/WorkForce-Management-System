@@ -165,8 +165,8 @@ stateDiagram-v2
 ```mermaid
 stateDiagram-v2
     [*] --> Pending : Employee applies for leave
-    Pending --> Approved : Manager approves
-    Pending --> Rejected : Manager rejects
+    Pending --> Approved : Admin approves
+    Pending --> Rejected : Admin rejects
     Approved --> [*]
     Rejected --> [*]
 ```
